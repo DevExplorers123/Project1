@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+}
+.title-container > img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.title-container > h1 {
+  text-transform: uppercase;
+}
+
+.menu-items {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.menu-items > li {
+  margin-right: 10px;
+}
+.body-container {
+  background: #e7816b;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
